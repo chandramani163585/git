@@ -43,7 +43,12 @@ git checkoout branchNo1						// shifting into branch `branchNo1`
 git merge branchNo1							// `branchNo1` branch added into `master` branch
 git checkoout -b branchNo1					// `branchNo1` branch created and also shifted into `branchNo1` branch
 
-git push origin master        //pushing to github 
+git push origin master        //pushing to github
+git pull origin              // pull  
+git fetch origin 
+
+git pull  origin main --allow-unrelated-histories    // if you get error like this: fatal: refusing to merge unrelated histories
+
 ==================================== git common ==========================
 
 
